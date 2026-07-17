@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "TEAMID.com.petly.app",
+        "paths": ["/claim/*", "/public/*"]
+      }
+    ]
+  }
+}
