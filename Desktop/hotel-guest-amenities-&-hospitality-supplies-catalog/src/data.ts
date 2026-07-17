@@ -135,11 +135,11 @@ export const GUEST_AMENITIES_PRODUCTS: Product[] = [
     id: 'dry-shaving-kit',
     name: 'Hospitality Shaving Kit',
     description: 'Complete shave solution with specialized double-lubricated high-grade razor and aloe shaving gel.',
-    imageUrl: '/images/dry_shaving_kit_1784230524404.jpg',
+    imageUrl: '/images/dry_shaving_kit_1784277243066.png',
     variantImages: {
-      'Wooden Handle Razor + Gel': '/images/dry_shaving_kit_1784230524404.jpg',
-      'Wheat Straw Bio-Composite Razor + Gel': '/images/dry_shaving_kit_1784230524404.jpg',
-      'Premium Recycled Plastic Razor + Gel': '/images/plastic_shaving_kit_1784236240159.jpg'
+      'Wooden Handle Razor + Gel': '/images/dry_shaving_kit_1784277243066.png',
+      'Wheat Straw Razor + Gel': '/images/dry_shaving_kit_1784277243066.png',
+      'Plastic Razor + Gel': '/images/plastic_shaving_kit_1784236240159.jpg'
     },
     iconName: 'Scissors',
     category: 'amenities',
@@ -168,9 +168,9 @@ export const GUEST_AMENITIES_PRODUCTS: Product[] = [
     description: 'Includes premium natural fiber dental brush with rounded bristles and standard refreshing mint toothpaste.',
     imageUrl: '/images/dry_dental_kit_1784230510814.jpg',
     variantImages: {
-      'Ergonomic Bamboo Wooden Brush': '/images/dry_dental_kit_1784230510814.jpg',
-      'Biodegradable Wheat Straw Brush': '/images/dental_kit_wheat_straw_1784236219058.jpg',
-      'Standard Plastic Dental Kit': '/images/plastic_dental_kit_1784236273797.jpg'
+      'Bamboo Brush + Anchor Paste': '/images/dry_dental_kit_1784230510814.jpg',
+      'Wheat Straw Brush + Anchor Paste': '/images/dental_kit_wheat_straw_1784236219058.jpg',
+      'Plastic Brush + Anchor Paste': '/images/plastic_dental_kit_1784236273797.jpg'
     },
     iconName: 'Smile',
     category: 'amenities',
@@ -197,11 +197,11 @@ export const GUEST_AMENITIES_PRODUCTS: Product[] = [
     id: 'dry-comb',
     name: 'Refined Styling Comb',
     description: 'Smooth, static-free wide-tooth hospitality comb designed for delicate detangling.',
-    imageUrl: '/images/dry_comb_1784230499266.jpg',
+    imageUrl: '/images/dry_comb_1784278061779.jpg',
     variantImages: {
-      'Natural Polished Wood': '/images/dry_comb_1784230499266.jpg',
-      'Eco Wheat Straw': '/images/dry_comb_1784230499266.jpg',
-      'Standard Recycled Plastic': '/images/comb_plastic_1784236251177.jpg'
+      'Wood': '/images/dry_comb_1784278061779.jpg',
+      'Wheat Straw': '/images/dry_comb_1784278061779.jpg',
+      'Plastic': '/images/comb_plastic_1784236251177.jpg'
     },
     iconName: 'Menu',
     category: 'amenities',
@@ -225,9 +225,9 @@ export const GUEST_AMENITIES_PRODUCTS: Product[] = [
     description: 'Plush, non-slip hospitality footwear designed for maximal in-room relaxation and comfort.',
     imageUrl: '/images/dry_white_slippers_1784231081372.jpg',
     variantImages: {
-      'Premium Terry Cotton Slipper': '/images/dry_white_slippers_1784231081372.jpg',
-      'Rustic Natural Jute Slipper': '/images/dry_jute_slippers_1784231069170.jpg',
-      'Lightweight Non-Woven Slipper': '/images/non_woven_slipper_1784236262437.jpg'
+      'Premium Terry': '/images/dry_white_slippers_1784231081372.jpg',
+      'Natural Jute': '/images/dry_jute_slippers_1784231069170.jpg',
+      'Non-Woven': '/images/non_woven_slipper_1784236262437.jpg'
     },
     iconName: 'Footprints',
     category: 'amenities',

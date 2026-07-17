@@ -79,30 +79,6 @@ export default function GuestAmenitiesTab() {
 
       <hr className="border-slate-200" />
 
-      {/* 2. Section Description & Title Bar based on Active Switch */}
-      <div className="bg-white rounded-xl p-6 border border-slate-200 shadow-2xs flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-        <div className="space-y-1">
-          <span className="text-[10px] font-bold text-blue-800 uppercase tracking-widest block">
-            {activeSubTab === 'wet' ? 'Formulations Division' : 'Eco Packaging Division'}
-          </span>
-          <h2 className="font-serif text-2xl font-semibold text-slate-900">
-            {activeSubTab === 'wet' ? 'Wet Amenities Collection' : 'Dry Amenities Essentials'}
-          </h2>
-          <p className="text-xs sm:text-sm text-slate-500 font-sans italic">
-            {activeSubTab === 'wet'
-              ? '“Indulgent formulations for a spa-like in-room experience”'
-              : '“Thoughtfully packaged essentials, from eco-friendly to classic”'}
-          </p>
-        </div>
-
-        {/* Rapid summary info */}
-        <div className="flex gap-4 text-xs font-medium text-slate-500 bg-slate-50 rounded border border-slate-200 p-3 shrink-0">
-          <div>
-
-          </div>
-        </div>
-      </div>
-
       {/* 3. Product Cards Grid with custom material tag indicators */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <AnimatePresence mode="popLayout">
