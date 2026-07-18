@@ -19,7 +19,7 @@ export default function Footer({ setActiveTab }: FooterProps) {
     <footer className="border-t border-slate-200 bg-slate-950 text-slate-400 py-16 px-4 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-7xl">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10 md:gap-8">
-          
+
           {/* Brand Info */}
           <div className="md:col-span-1 space-y-4">
             <div className="flex items-center gap-2.5">
@@ -27,7 +27,7 @@ export default function Footer({ setActiveTab }: FooterProps) {
                 <WelstandLogo className="h-full w-full" />
               </div>
               <div>
-                <span className="font-serif text-white text-base tracking-widest font-bold">WELSTAND</span>
+                <span className="font-sans text-white text-base tracking-wide font-bold">WelStand</span>
                 <span className="ml-1.5 font-sans text-[10px] font-semibold uppercase tracking-widest text-blue-400">Enterprises</span>
               </div>
             </div>
@@ -41,8 +41,8 @@ export default function Footer({ setActiveTab }: FooterProps) {
             <h4 className="text-white text-sm font-semibold tracking-wide uppercase">Product Catalog</h4>
             <ul className="space-y-2.5 text-sm">
               <li>
-                <button 
-                  onClick={() => setActiveTab('amenities')} 
+                <button
+                  onClick={() => setActiveTab('amenities')}
                   id="footer-link-amenities"
                   className="hover:text-white transition-colors cursor-pointer text-left"
                 >
@@ -50,8 +50,8 @@ export default function Footer({ setActiveTab }: FooterProps) {
                 </button>
               </li>
               <li>
-                <button 
-                  onClick={() => setActiveTab('cleaning')} 
+                <button
+                  onClick={() => setActiveTab('cleaning')}
                   id="footer-link-cleaning"
                   className="hover:text-white transition-colors cursor-pointer text-left"
                 >
@@ -59,8 +59,8 @@ export default function Footer({ setActiveTab }: FooterProps) {
                 </button>
               </li>
               <li>
-                <button 
-                  onClick={() => setActiveTab('housekeeping')} 
+                <button
+                  onClick={() => setActiveTab('housekeeping')}
                   id="footer-link-housekeeping"
                   className="hover:text-white transition-colors cursor-pointer text-left"
                 >
@@ -68,8 +68,8 @@ export default function Footer({ setActiveTab }: FooterProps) {
                 </button>
               </li>
               <li>
-                <button 
-                  onClick={() => setActiveTab('linen')} 
+                <button
+                  onClick={() => setActiveTab('linen')}
                   id="footer-link-linen"
                   className="hover:text-white transition-colors cursor-pointer text-left"
                 >

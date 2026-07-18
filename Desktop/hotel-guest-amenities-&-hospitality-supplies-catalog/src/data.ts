@@ -297,12 +297,12 @@ export const CLEANING_SOLUTIONS_PRODUCTS: Product[] = [
     ecoFriendly: true,
     skuCode: 'ST-HW-250',
     badge: 'Luxury Selection',
-    imageUrl: '/images/stark_hand_wash_1784226813515.jpg'
+    imageUrl: '/images/stark_hand_wash_green_apple.png'
   },
   {
     id: 'stark-floor-cleaner',
     name: 'Stark Chem Floor Cleaner',
-    description: 'A high-performance floor cleanser with an exotic tea aroma. Suitable for all polished flooring, leaving a streak-free, gleaming finish.',
+    description: 'Our eco-friendly floor cleaner removes dirt and stains while leaving a long-lasting fresh fragrance. Suitable for all major floor types. Available in 10+ fragrances.',
     iconName: 'Layers',
     category: 'cleaning',
     sizes: ['5L Institutional Jug'],
@@ -310,7 +310,7 @@ export const CLEANING_SOLUTIONS_PRODUCTS: Product[] = [
     ecoFriendly: true,
     skuCode: 'ST-FC-500',
     badge: 'High Performance',
-    imageUrl: '/images/stark_floor_cleaner_1784226832756.jpg'
+    imageUrl: '/images/stark_floor_cleaner_oud.png'
   },
   {
     id: 'stark-toilet-cleaner',
@@ -323,25 +323,25 @@ export const CLEANING_SOLUTIONS_PRODUCTS: Product[] = [
     ecoFriendly: true,
     skuCode: 'ST-TC-710',
     badge: '3-in-1 Power',
-    imageUrl: '/images/stark_toilet_cleaner_1784226850889.jpg'
+    imageUrl: '/images/stark_toilet_cleaner_box.png'
   },
   {
     id: 'stark-dishwash-liquid',
     name: 'Stark Chem Dishwash Liquid',
-    description: '2x active grease-cutting power with a refreshing lemon scent. Rinses clean with zero residue, leaving kitchenware spotless and shining.',
+    description: '2x active grease-cutting power with a refreshing green apple scent. Rinses clean with zero residue, leaving kitchenware spotless and shining.',
     iconName: 'Droplet',
     category: 'cleaning',
     sizes: ['5L Dispensing Canister'],
-    materials: ['Concentrated Citrus Formula'],
+    materials: ['Concentrated Apple Formula'],
     ecoFriendly: true,
     skuCode: 'ST-DW-500',
     badge: '2x Active Power',
-    imageUrl: '/images/stark_dishwash_liquid_1784226864579.jpg'
+    imageUrl: '/images/stark_dishwash_liquid_apple.png'
   },
   {
     id: 'stark-air-freshener',
     name: 'Stark Chem Air Freshener',
-    description: 'A premium, aerosol air freshener with an exotic fragrance. Neutrallizes bad odors instantly and fills the hotel space with a luxurious botanical scent.',
+    description: 'Our water-based air freshener eliminates odors and leaves a long-lasting fresh fragrance. Safe for guest rooms and common areas, its gentle formula is free from harsh chemicals, making it ideal for hotels and hospitals.',
     iconName: 'Wind',
     category: 'cleaning',
     sizes: ['250ml Spray Can', '5L Bulk Refill Canister'],
@@ -349,7 +349,7 @@ export const CLEANING_SOLUTIONS_PRODUCTS: Product[] = [
     ecoFriendly: true,
     skuCode: 'ST-AF-400',
     badge: 'Exotic Fragrance',
-    imageUrl: '/images/stark_air_freshener_1784236464267.jpg'
+    imageUrl: '/images/stark_air_freshener_oud.png'
   }
 ];
 

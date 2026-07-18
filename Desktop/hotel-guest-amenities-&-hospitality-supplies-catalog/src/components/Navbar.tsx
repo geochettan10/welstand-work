@@ -42,7 +42,7 @@ export default function Navbar({ activeTab, setActiveTab, onOpenContact }: Navba
             <WelstandLogo className="h-full w-full" />
           </div>
           <div>
-            <span className="font-serif text-lg font-bold tracking-widest text-slate-900">
+            <span className="font-sans text-lg font-bold tracking-wide text-slate-900">
               WelStand
             </span>
             <span className="ml-1.5 font-sans text-[10px] font-semibold uppercase tracking-widest text-blue-800">

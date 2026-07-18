@@ -94,7 +94,8 @@ export default function HomeTab({ setActiveTab, onOpenContact }: HomeTabProps) {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="mt-6 text-base sm:text-lg text-slate-600 max-w-2xl mx-auto font-sans leading-relaxed"
           >
-            Crafting sustainable, high-formulation toiletries and robust housekeeping essentials trusted by the world's leading five-star hotels, luxury boutique resorts, and premium hospitality chains.
+            WelStand Enterprises, established in 2013, is a trusted supplier of quality products for hotels and hospitals across India. We provide cleaning chemicals, stainless steel dust bins, toiletries, tissue paper products, linens, and more. With timely delivery, reliable service, and a customer-focused approach, we ensure our clients get the products they need, when they need them.
+
           </motion.p>
 
           <motion.div
