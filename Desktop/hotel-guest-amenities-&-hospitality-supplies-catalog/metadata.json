@@ -1,0 +1,6 @@
+{
+  "name": "Hotel Guest Amenities & Hospitality Supplies Catalog",
+  "description": "Premium B2B catalog for hospitality guest amenities, housekeeping equipment, and professional cleaning solutions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

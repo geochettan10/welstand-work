@@ -43,7 +43,7 @@ export default function Navbar({ activeTab, setActiveTab, onOpenContact }: Navba
           </div>
           <div>
             <span className="font-serif text-lg font-bold tracking-widest text-slate-900">
-              WELSTAND
+              WelStand
             </span>
             <span className="ml-1.5 font-sans text-[10px] font-semibold uppercase tracking-widest text-blue-800">
               Enterprises
@@ -61,8 +61,8 @@ export default function Navbar({ activeTab, setActiveTab, onOpenContact }: Navba
                 id={`nav-tab-${item.id}`}
                 onClick={() => handleTabClick(item.id)}
                 className={`relative rounded-full px-3.5 py-1.5 text-xs lg:text-sm transition-all duration-300 font-sans tracking-wide ${isActive
-                    ? 'bg-blue-50 text-blue-900 font-semibold shadow-2xs ring-1 ring-blue-100/70'
-                    : 'text-slate-600 hover:bg-slate-50 hover:text-slate-900 font-normal hover:cursor-pointer'
+                  ? 'bg-blue-50 text-blue-900 font-semibold shadow-2xs ring-1 ring-blue-100/70'
+                  : 'text-slate-600 hover:bg-slate-50 hover:text-slate-900 font-normal hover:cursor-pointer'
                   }`}
               >
                 {item.label}
@@ -104,8 +104,8 @@ export default function Navbar({ activeTab, setActiveTab, onOpenContact }: Navba
                   key={item.id}
                   onClick={() => handleTabClick(item.id)}
                   className={`w-full text-left rounded-lg px-4 py-3 text-sm font-sans tracking-wide transition-all border cursor-pointer ${isActive
-                      ? 'bg-blue-50 border-blue-100 text-blue-900 font-bold'
-                      : 'bg-white border-transparent text-slate-655 hover:bg-slate-50'
+                    ? 'bg-blue-50 border-blue-100 text-blue-900 font-bold'
+                    : 'bg-white border-transparent text-slate-655 hover:bg-slate-50'
                     }`}
                 >
                   {item.label}
