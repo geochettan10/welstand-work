@@ -297,7 +297,7 @@ export const CLEANING_SOLUTIONS_PRODUCTS: Product[] = [
     ecoFriendly: true,
     skuCode: 'ST-HW-250',
     badge: 'Luxury Selection',
-    imageUrl: '/images/stark_hand_wash_green_apple.png'
+    imageUrl: '/images/stark_hand_wash.png'
   },
   {
     id: 'stark-floor-cleaner',
@@ -323,7 +323,7 @@ export const CLEANING_SOLUTIONS_PRODUCTS: Product[] = [
     ecoFriendly: true,
     skuCode: 'ST-TC-710',
     badge: '3-in-1 Power',
-    imageUrl: '/images/stark_toilet_cleaner_box.png'
+    imageUrl: '/images/stark_toilet_bowl_cleaner.png'
   },
   {
     id: 'stark-dishwash-liquid',
@@ -336,7 +336,7 @@ export const CLEANING_SOLUTIONS_PRODUCTS: Product[] = [
     ecoFriendly: true,
     skuCode: 'ST-DW-500',
     badge: '2x Active Power',
-    imageUrl: '/images/stark_dishwash_liquid_apple.png'
+    imageUrl: '/images/stark_dishwash_liquid.png'
   },
   {
     id: 'stark-air-freshener',
@@ -349,7 +349,7 @@ export const CLEANING_SOLUTIONS_PRODUCTS: Product[] = [
     ecoFriendly: true,
     skuCode: 'ST-AF-400',
     badge: 'Exotic Fragrance',
-    imageUrl: '/images/stark_air_freshener_oud.png'
+    imageUrl: '/images/stark_air_freshner.png'
   }
 ];
 
