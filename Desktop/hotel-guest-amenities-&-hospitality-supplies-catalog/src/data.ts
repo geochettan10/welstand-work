@@ -289,7 +289,7 @@ export const CLEANING_SOLUTIONS_PRODUCTS: Product[] = [
   {
     id: 'stark-hand-wash',
     name: 'Stark Chem Hand Wash',
-    description: 'A premium, skin-safe hand wash with an exotic fragrance. Gentle on hands, dermatologically tested, eco-friendly, and highly effective at sanitizing.',
+    description: 'Formulated for frequent use in guest and staff restrooms. It is tough on germs but gentle on the skin, leaving hands clean, moisturized, and lightly scented.',
     iconName: 'Sparkles',
     category: 'cleaning',
     sizes: ['5L Bulk Refill Canister'],
@@ -302,7 +302,7 @@ export const CLEANING_SOLUTIONS_PRODUCTS: Product[] = [
   {
     id: 'stark-floor-cleaner',
     name: 'Stark Chem Floor Cleaner',
-    description: 'Our eco-friendly floor cleaner removes dirt and stains while leaving a long-lasting fresh fragrance. Suitable for all major floor types. Available in 10+ fragrances.',
+    description: 'A highly concentrated, eco-friendly formula for high-traffic areas. Cuts through dirt, kills 99.9% of germs, and offers rigorous disinfection. Available in ~20 fragrances like Premium Oud.',
     iconName: 'Layers',
     category: 'cleaning',
     sizes: ['5L Institutional Jug'],
@@ -315,7 +315,7 @@ export const CLEANING_SOLUTIONS_PRODUCTS: Product[] = [
   {
     id: 'stark-toilet-cleaner',
     name: 'Stark Chem Toilet Bowl Cleaner',
-    description: 'Hospital-grade triple-action toilet bowl sanitizer. Rapidly descales, deodorizes, and removes stubborn organic stains with ease.',
+    description: 'A powerful, heavy-duty formula that effectively eliminates stubborn stains, mineral deposits, and odors. Safer on commercial plumbing systems than harsh acidic alternatives.',
     iconName: 'Shield',
     category: 'cleaning',
     sizes: ['5L Bulk Refill'],
@@ -328,7 +328,7 @@ export const CLEANING_SOLUTIONS_PRODUCTS: Product[] = [
   {
     id: 'stark-dishwash-liquid',
     name: 'Stark Chem Dishwash Liquid',
-    description: '2x active grease-cutting power with a refreshing green apple scent. Rinses clean with zero residue, leaving kitchenware spotless and shining.',
+    description: 'A highly concentrated, high-foaming formula that instantly cuts through tough grease, baked-on food, and oils, ensuring spotless glassware and flatware.',
     iconName: 'Droplet',
     category: 'cleaning',
     sizes: ['5L Dispensing Canister'],
@@ -341,7 +341,7 @@ export const CLEANING_SOLUTIONS_PRODUCTS: Product[] = [
   {
     id: 'stark-air-freshener',
     name: 'Stark Chem Air Freshener',
-    description: 'Our water-based air freshener eliminates odors and leaves a long-lasting fresh fragrance. Safe for guest rooms and common areas, its gentle formula is free from harsh chemicals, making it ideal for hotels and hospitals.',
+    description: 'A premium room freshener that neutralizes odors at the source and leaves a long-lasting fragrance. Over 20 diverse fragrances optimally tailor the scent profile to enhance the atmosphere of your property.',
     iconName: 'Wind',
     category: 'cleaning',
     sizes: ['250ml Spray Can', '5L Bulk Refill Canister'],
