@@ -302,7 +302,7 @@ export const CLEANING_SOLUTIONS_PRODUCTS: Product[] = [
   {
     id: 'stark-floor-cleaner',
     name: 'Stark Chem Floor Cleaner',
-    description: 'A highly concentrated, eco-friendly formula for high-traffic areas. Cuts through dirt, kills 99.9% of germs, and offers rigorous disinfection. Available in ~20 fragrances like Premium Oud.',
+    description: 'A highly concentrated, eco-friendly formula designed for expansive, high-traffic areas. It cuts through tough dirt and kills 99.9% of germs, providing rigorous disinfection. Available in around 20 distinctive fragrances, including our signature Premium Oud. These lingering scents are ideal for guest rooms, elevating the ambiance to create a "better feel" while reducing the reliance on additional air fresheners. The concentrated nature ensures exceptional cost-effectiveness and lasting value for large-scale operations.',
     iconName: 'Layers',
     category: 'cleaning',
     sizes: ['5L Institutional Jug'],
@@ -328,7 +328,7 @@ export const CLEANING_SOLUTIONS_PRODUCTS: Product[] = [
   {
     id: 'stark-dishwash-liquid',
     name: 'Stark Chem Dishwash Liquid',
-    description: 'A highly concentrated, high-foaming formula that instantly cuts through tough grease, baked-on food, and oils, ensuring spotless glassware and flatware.',
+    description: 'A highly concentrated, high-foaming formula that instantly cuts through tough grease, baked-on food, and oils, ensuring spotless glassware and flatware for your culinary operations.',
     iconName: 'Droplet',
     category: 'cleaning',
     sizes: ['5L Dispensing Canister'],
@@ -341,7 +341,7 @@ export const CLEANING_SOLUTIONS_PRODUCTS: Product[] = [
   {
     id: 'stark-air-freshener',
     name: 'Stark Chem Air Freshener',
-    description: 'A premium room freshener that neutralizes odors at the source and leaves a long-lasting fragrance. Over 20 diverse fragrances optimally tailor the scent profile to enhance the atmosphere of your property.',
+    description: 'A premium room freshener that neutralizes odors at the source and leaves a long-lasting, welcoming fragrance. With around 20 diverse fragrances to choose from, you can perfectly tailor the scent profile to enhance the atmosphere of guest rooms, corridors, and lobbies, ensuring every area of your property feels consistently fresh and inviting.',
     iconName: 'Wind',
     category: 'cleaning',
     sizes: ['250ml Spray Can', '5L Bulk Refill Canister'],

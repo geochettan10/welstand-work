@@ -42,7 +42,7 @@ export default function CleaningSolutionsTab() {
           Best Cleaning Solutions With Stark Chem
         </h1>
         <p className="text-slate-600 font-sans leading-relaxed text-sm sm:text-base">
-          We manufacture a wide range of eco-friendly cleaning chemicals under the Stark Chem brand, including floor cleaners, air fresheners, hand wash, toilet bowl cleaners, and dish wash liquid. All products are made with advanced formulas to deliver reliable quality and performance.
+          At Stark Chem, we understand that cleanliness is the foundation of an exceptional guest and staff experience. We engineer commercial-grade cleaning chemicals designed to tackle the rigorous demands of high-traffic facilities. From maintaining pristine lobbies to ensuring hygienic washrooms and kitchens, our comprehensive range of solutions delivers uncompromising results, efficiency, and reliability for your property.
         </p>
       </div>
 
