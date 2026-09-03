@@ -286,71 +286,131 @@ export const GUEST_AMENITIES_PRODUCTS: Product[] = [
 ];
 
 export const CLEANING_SOLUTIONS_PRODUCTS: Product[] = [
-  {
-    id: 'stark-hand-wash',
-    name: 'Stark Chem Hand Wash',
-    description: 'Formulated for frequent use in guest and staff restrooms. It is tough on germs but gentle on the skin, leaving hands clean, moisturized, and lightly scented.',
-    iconName: 'Sparkles',
-    category: 'cleaning',
-    sizes: ['5L Bulk Refill Canister'],
-    materials: ['Gold Pearlescent Liquid Formula'],
-    ecoFriendly: true,
-    skuCode: 'ST-HW-250',
-    badge: 'Luxury Selection',
-    imageUrl: '/images/stark_hand_wash.png'
-  },
+  // --- Surface & Floor Care ---
   {
     id: 'stark-floor-cleaner',
-    name: 'Stark Chem Floor Cleaner',
-    description: 'A highly concentrated, eco-friendly formula designed for expansive, high-traffic areas. It cuts through tough dirt and kills 99.9% of germs, providing rigorous disinfection. Available in around 20 distinctive fragrances, including our signature Premium Oud. These lingering scents are ideal for guest rooms, elevating the ambiance to create a "better feel" while reducing the reliance on additional air fresheners. The concentrated nature ensures exceptional cost-effectiveness and lasting value for large-scale operations.',
+    name: 'Disinfectant Floor Cleaner',
+    description: 'A highly concentrated, eco-friendly formula designed for expansive, high-traffic areas. It cuts through tough dirt and kills 99.9% of germs, providing rigorous disinfection. Available in around 20 distinctive fragrances, including our signature Premium Oud. These lingering scents are ideal for guest rooms, elevating the ambiance to create a "better feel" while reducing the reliance on additional air fresheners.',
     iconName: 'Layers',
     category: 'cleaning',
     sizes: ['5L Institutional Jug'],
-    materials: ['Translucent Pink Liquid Formula'],
     ecoFriendly: true,
     skuCode: 'ST-FC-500',
-    badge: 'High Performance',
+    badge: 'Concentrated & Eco-Friendly',
     imageUrl: '/images/stark_floor_cleaner_oud.png'
   },
   {
+    id: 'stark-all-purpose-cleaner',
+    name: 'All-Purpose Cleaner',
+    description: 'The versatile workhorse of your housekeeping cart. Highly effective on a multitude of hard surfaces, lifting grease, smudges, and daily buildup without leaving a residue.',
+    iconName: 'Sparkles',
+    category: 'cleaning',
+    sizes: ['5L'],
+    ecoFriendly: true,
+    skuCode: 'ST-APC-100',
+    imageUrl: '/images/stark_all_purpose_cleaner.png'
+  },
+  {
+    id: 'stark-glass-cleaner',
+    name: 'Glass Cleaner',
+    description: 'Provides a brilliant, streak-free shine for windows, mirrors, and glass fixtures, ensuring a crystal-clear finish that elevates the look of any room.',
+    iconName: 'Droplets',
+    category: 'cleaning',
+    sizes: ['5L'],
+    ecoFriendly: true,
+    skuCode: 'ST-GC-200',
+    imageUrl: '/images/stark_glass_cleaner.png'
+  },
+
+  // --- Washroom & Personal Hygiene ---
+  {
     id: 'stark-toilet-cleaner',
-    name: 'Stark Chem Toilet Bowl Cleaner',
-    description: 'A powerful, heavy-duty formula that effectively eliminates stubborn stains, mineral deposits, and odors. Safer on commercial plumbing systems than harsh acidic alternatives.',
+    name: 'Toilet Bowl Cleaner',
+    description: 'A powerful, heavy-duty formula that effectively eliminates stubborn stains, mineral deposits, and odors. The alkaline base ensures tough action on grime while being safer on commercial plumbing systems than harsh acidic alternatives.',
     iconName: 'Shield',
     category: 'cleaning',
     sizes: ['5L Bulk Refill'],
-    materials: ['Active Acid Gel Formula'],
     ecoFriendly: true,
     skuCode: 'ST-TC-710',
-    badge: '3-in-1 Power',
+    badge: 'Heavy-Duty',
     imageUrl: '/images/stark_toilet_bowl_cleaner.png'
   },
   {
+    id: 'stark-hand-wash',
+    name: 'Hand Wash Liquid',
+    description: 'Formulated for frequent use in guest and staff restrooms. It is tough on germs but gentle on the skin, leaving hands clean, moisturized, and lightly scented.',
+    iconName: 'Hand',
+    category: 'cleaning',
+    sizes: ['5L Bulk Refill Canister'],
+    ecoFriendly: true,
+    skuCode: 'ST-HW-250',
+    badge: 'Gentle Formula',
+    imageUrl: '/images/stark_hand_wash.png'
+  },
+
+  // --- Specialty Maintenance ---
+  {
+    id: 'stark-furniture-polish',
+    name: 'Furniture Polish',
+    description: 'Restores the natural luster of wood and synthetic furnishings. It conditions the surface, repels dust, and leaves a protective layer to maintain a premium appearance in guest rooms and lounges.',
+    iconName: 'Armchair',
+    category: 'cleaning',
+    sizes: ['5L'],
+    ecoFriendly: true,
+    skuCode: 'ST-FP-300',
+    imageUrl: '/images/stark_furniture_polish.png'
+  },
+  {
+    id: 'stark-steel-polish',
+    name: 'Steel Polish',
+    description: 'Specifically designed to clean, shine, and protect stainless steel appliances, elevators, and fixtures, preventing fingerprints and watermarks.',
+    iconName: 'Zap',
+    category: 'cleaning',
+    sizes: ['5L'],
+    ecoFriendly: true,
+    skuCode: 'ST-SP-310',
+    imageUrl: '/images/stark_steel_polish.png'
+  },
+
+  // --- Kitchen & Dining ---
+  {
     id: 'stark-dishwash-liquid',
-    name: 'Stark Chem Dishwash Liquid',
+    name: 'Dish Wash Liquid',
     description: 'A highly concentrated, high-foaming formula that instantly cuts through tough grease, baked-on food, and oils, ensuring spotless glassware and flatware for your culinary operations.',
     iconName: 'Droplet',
     category: 'cleaning',
     sizes: ['5L Dispensing Canister'],
-    materials: ['Concentrated Apple Formula'],
     ecoFriendly: true,
     skuCode: 'ST-DW-500',
-    badge: '2x Active Power',
+    badge: 'High Foaming',
     imageUrl: '/images/stark_dishwash_liquid.png'
   },
   {
+    id: 'stark-oven-grill-cleaner',
+    name: 'Oven & Grill Cleaner',
+    description: 'A fast-acting, industrial-strength formula specifically engineered to break down and dissolve stubborn, baked-on carbon, grease, and charred food residues. Ideal for commercial kitchens, it rapidly restores ovens, grills, griddles, and fryers to peak condition with minimal scrubbing.',
+    iconName: 'Flame',
+    category: 'cleaning',
+    sizes: ['5L'],
+    ecoFriendly: true,
+    skuCode: 'ST-OGC-600',
+    badge: 'Industrial Strength',
+    imageUrl: '/images/stark_oven_grill_cleaner.png'
+  },
+
+  // --- Ambiance ---
+  {
     id: 'stark-air-freshener',
-    name: 'Stark Chem Air Freshener',
-    description: 'A premium room freshener that neutralizes odors at the source and leaves a long-lasting, welcoming fragrance. With around 20 diverse fragrances to choose from, you can perfectly tailor the scent profile to enhance the atmosphere of guest rooms, corridors, and lobbies, ensuring every area of your property feels consistently fresh and inviting.',
+    name: 'Air Freshener',
+    description: 'A premium room freshener that neutralizes odors at the source and leaves a long-lasting, welcoming fragrance. With around 20 diverse fragrances to choose from, you can perfectly tailor the scent profile to enhance the atmosphere of guest rooms, corridors, and lobbies.',
     iconName: 'Wind',
     category: 'cleaning',
-    sizes: ['250ml Spray Can', '5L Bulk Refill Canister'],
-    materials: ['Aerosol Odor Eliminator Formula'],
+    sizes: ['5L Bulk Refill Canister'],
     ecoFriendly: true,
     skuCode: 'ST-AF-400',
-    badge: 'Exotic Fragrance',
+    badge: '~20 Fragrances',
     imageUrl: '/images/stark_air_freshner.png'
-  }
+  },
 ];
 
 export const HOUSEKEEPING_EQUIPMENT_PRODUCTS: Product[] = [
