@@ -128,6 +128,15 @@ export default function CleaningSolutionsTab() {
   return (
     <div className="space-y-14 pb-20">
 
+      {/* ── Cleaning Solutions Banner ── */}
+      <figure className="w-full overflow-hidden rounded-xl border border-slate-200 bg-white shadow-2xs">
+        <img
+          src="/images/cleaning-solutions-banner.png"
+          alt="Stark Chem cleaning solutions"
+          className="block h-auto w-full object-contain"
+        />
+      </figure>
+
       {/* ── About Stark Chem ── */}
       <div className="space-y-5">
         <div className="inline-flex items-center gap-1.5 rounded-full bg-slate-100 border border-slate-200 px-3.5 py-1.5 text-[10px] font-bold text-slate-700 uppercase tracking-widest">
